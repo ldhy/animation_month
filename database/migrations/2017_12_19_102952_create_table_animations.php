@@ -18,6 +18,7 @@ class CreateTableAnimations extends Migration
             $table->timestamps();
             $table->string('name');
             $table->string('category');
+            $table->string('url');
         });
     }
 
