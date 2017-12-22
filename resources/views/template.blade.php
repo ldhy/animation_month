@@ -13,6 +13,15 @@
         <!-- Styles -->
         <style>
 
+          html, body {
+              background-color: #fff;
+              color: #636b6f;
+              font-family: 'Raleway', sans-serif;
+              font-weight: 100;
+              height: 100vh;
+              margin: 0;
+          }
+
             .full-height {
                 height: 100vh;
             }
@@ -86,7 +95,7 @@
                 </div>
             @endif
 
-            <h1>Create Calendar</h1>
+            <h1>Template Calendar</h1>
                 <div class="box">
                     <div class="item">1</div>
                     <div class="item">2</div>
