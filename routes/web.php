@@ -18,3 +18,5 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/create', 'crudCalendar@create')->name('calendar.create');
+Route::get('/template', 'BrowseTemplateController@show')->name('template.show');
